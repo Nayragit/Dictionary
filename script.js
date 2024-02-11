@@ -56,7 +56,7 @@ async function fetchchandCreateCard(){
         </div>
 
         <div class="property">
-        <span>${partOfSpeechArray.map(e => e).join(', ')}</span>
+        <span>${partOfSpeechArray.join(', ')}</span>
         </div>
 </div>`
 console.log(dictionary.innerHTML);
